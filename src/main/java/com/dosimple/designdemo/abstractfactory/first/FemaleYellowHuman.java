@@ -1,0 +1,11 @@
+package com.dosimple.designdemo.abstractfactory.first;
+
+/**
+ * @author baolw
+ */
+class FemaleYellowHuman extends AbstractYellowHuman {
+    @Override
+    public void getSex() {
+        System.out.println("黄人女性");
+    }
+}
