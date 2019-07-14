@@ -1,11 +1,11 @@
-package com.dosimple.designdemo.mediator;
+package com.dosimple.designdemo.mediator.one;
 
 import java.util.Random;
 
 /**
  * @author baolw
  */
-public class Sale {
+class Sale {
 
     public void sellIBMComputer(int number) {
         Stock stock = new Stock();

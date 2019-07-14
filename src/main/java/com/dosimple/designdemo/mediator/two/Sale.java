@@ -1,20 +1,19 @@
-package com.dosimple.designdemo.mediator.one;
+package com.dosimple.designdemo.mediator.two;
 
 import java.util.Random;
 
 /**
  * @author baolw
  */
-class Sale {
+class Sale extends AbstractColleague{
+
+    public Sale(AbstractMediator mediator) {
+        super(mediator);
+    }
 
     public void sellIBMComputer(int number) {
-        Stock stock = new Stock();
-        Purchase purchase = new Purchase();
-        if (stock.getStockNumber() < number) {
-            purchase.buyIBMcomputer(number);
-        }
+        super.mediator.execute("sale.sell", number);
         System.out.println("销售IBM电脑" + number + "台");
-        stock.decrease(number);
     }
 
     public int getSaleStatus() {
@@ -25,7 +24,6 @@ class Sale {
     }
 
     public void offSale() {
-        Stock stock = new Stock();
-        System.out.println("折价销售IBM电脑" + stock.getStockNumber() + "台");
+        super.mediator.execute("sale.offsell");
     }
 }

@@ -1,15 +1,15 @@
-package com.dosimple.designdemo.mediator;
+package com.dosimple.designdemo.mediator.one;
 
 /**
  * @author baolw
  */
-public class Purchase {
+class Purchase {
     public void buyIBMcomputer(int number) {
         Stock stock = new Stock();
         Sale sale = new Sale();
         int saleStatus = sale.getSaleStatus();
         if (saleStatus > 80) {
-            System.out.println("采购IBM电脑：" + number + "tai");
+            System.out.println("采购IBM电脑：" + number + "台");
             stock.increase(number);
         } else {
             int buyNumber = number / 2;

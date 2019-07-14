@@ -1,10 +1,14 @@
-package com.dosimple.designdemo.mediator.one;
+package com.dosimple.designdemo.mediator.two;
 
 /**
  * @author baolw
  */
-class Stock {
+class Stock extends AbstractColleague{
     private static int COMPUTER_NUMBER = 100;
+
+    public Stock(AbstractMediator mediator) {
+        super(mediator);
+    }
 
     public void increase(int number) {
         COMPUTER_NUMBER = COMPUTER_NUMBER + number;
@@ -21,10 +25,7 @@ class Stock {
     }
 
     public void clearStock() {
-        Purchase purchase = new Purchase();
-        Sale sale = new Sale();
         System.out.println("清理存货数量为:" + COMPUTER_NUMBER);
-        sale.offSale();
-        purchase.refuseBuyIBM();
+        super.mediator.execute("stock.clear");
     }
 }

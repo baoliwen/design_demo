@@ -3,5 +3,11 @@ package com.dosimple.designdemo.mediator.two;
 /**
  * @author baolw
  */
-public class AbstractColleague {
+abstract class AbstractColleague {
+    protected AbstractMediator mediator;
+
+    public AbstractColleague(AbstractMediator mediator) {
+        this.mediator = mediator;
+    }
+
 }

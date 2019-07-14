@@ -1,9 +1,9 @@
-package com.dosimple.designdemo.mediator;
+package com.dosimple.designdemo.mediator.one;
 
 /**
  * @author baolw
  */
-public class Stock {
+class Stock {
     private static int COMPUTER_NUMBER = 100;
 
     public void increase(int number) {
