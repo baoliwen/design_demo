@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.abstractfactory.first;
 
-/**
- * @author baolw
- */
 class MaleBlackHuman extends AbstractBlackHuman {
     @Override
     public void getSex() {

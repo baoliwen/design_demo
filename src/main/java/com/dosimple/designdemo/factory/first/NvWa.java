@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.factory.first;
 
-/**
- * @author baolw
- */
 class NvWa {
     public static void main(String[] args) {
         AbstractHumanFactory factory = new HumanFactory();

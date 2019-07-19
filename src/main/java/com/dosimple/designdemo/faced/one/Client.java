@@ -1,8 +1,4 @@
 package com.dosimple.designdemo.faced.one;
-
-/**
- * @author baolw
- */
 class Client {
     public static void main(String[] args) {
         ModenPostOffice postOffice = new ModenPostOffice();

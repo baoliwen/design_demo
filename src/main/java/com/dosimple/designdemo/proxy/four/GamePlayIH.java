@@ -3,9 +3,6 @@ package com.dosimple.designdemo.proxy.four;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
-/**
- * @author baolw
- */
 class GamePlayIH implements InvocationHandler{
     Class cls = null;
     Object obj = null;

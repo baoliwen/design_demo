@@ -3,9 +3,6 @@ package com.dosimple.designdemo.builder.two;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author baolw
- */
 class Director {
     private List<String> sequence = new ArrayList<>();
 

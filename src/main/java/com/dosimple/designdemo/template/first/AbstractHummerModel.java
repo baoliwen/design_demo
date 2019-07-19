@@ -1,8 +1,4 @@
 package com.dosimple.designdemo.template.first;
-
-/**
- * @author baolw
- */
 abstract class AbstractHummerModel {
     public abstract void start();
     public abstract void stop();

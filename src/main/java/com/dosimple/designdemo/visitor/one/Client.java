@@ -3,9 +3,6 @@ package com.dosimple.designdemo.visitor.one;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author baolw
- */
 class Client {
     public static void main(String[] args) {
         for (Employee employee : mockEmployee()) {

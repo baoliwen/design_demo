@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.decorator.one;
 
-/**
- * @author baolw
- */
 class HighScoreDecorator extends AbstractDecorator {
     public HighScoreDecorator(AbstractSchoolReport schoolReport) {
         super(schoolReport);

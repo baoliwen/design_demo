@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.memento.one;
 
-/**
- * @author baolw
- */
 class Client {
     public static void main(String[] args) {
         Boy boy = new Boy();

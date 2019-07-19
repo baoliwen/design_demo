@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.responsibility.one;
 
-/**
- * @author baolw
- */
 class Women implements IWomen {
     private int type = 0;
     private String request = "";

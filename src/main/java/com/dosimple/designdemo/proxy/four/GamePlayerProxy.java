@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.proxy.four;
 
-/**
- * @author baolw
- */
 class GamePlayerProxy implements IGamePlayer, IProxy {
     private IGamePlayer gamePlayer = null;
 

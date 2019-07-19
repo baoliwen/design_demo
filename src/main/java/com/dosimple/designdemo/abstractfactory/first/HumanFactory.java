@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.abstractfactory.first;
 
-/**
- * @author baolw
- */
 interface HumanFactory {
     Human createYellowHuman();
 

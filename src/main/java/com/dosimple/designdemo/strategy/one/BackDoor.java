@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.strategy.one;
 
-/**
- * @author baolw
- */
 public class BackDoor implements IStrategy {
     @Override
     public void operate() {

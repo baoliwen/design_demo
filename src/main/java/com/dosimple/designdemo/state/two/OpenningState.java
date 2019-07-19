@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.state.two;
 
-/**
- * @author baolw
- */
 class OpenningState extends LiftState {
 
     @Override

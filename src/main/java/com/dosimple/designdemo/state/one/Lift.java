@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.state.one;
 
-/**
- * @author baolw
- */
 class Lift implements ILift {
 
     private int state;

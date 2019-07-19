@@ -1,8 +1,4 @@
 package com.dosimple.designdemo.visitor.one;
-
-/**
- * @author baolw
- */
 class Manager extends Employee {
     private String performance;
 

@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.observer.two;
 
-/**
- * @author baolw
- */
 class Client {
     public static void main(String[] args) {
         HanFeiZi hanFeiZi = new HanFeiZi();

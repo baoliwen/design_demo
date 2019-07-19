@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.flyweight.one;
 
-/**
- * @author baolw
- */
 class SignInfo {
     private String id;
     private String location;

@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.template.first;
 
-/**
- * @author baolw
- */
 class HummerH2Model extends AbstractHummerModel{
     @Override
     public void start() {

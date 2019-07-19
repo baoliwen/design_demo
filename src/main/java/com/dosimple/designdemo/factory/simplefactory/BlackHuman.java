@@ -1,8 +1,4 @@
 package com.dosimple.designdemo.factory.simplefactory;
-
-/**
- * @author baolw
- */
 class BlackHuman implements Human {
 
     @Override

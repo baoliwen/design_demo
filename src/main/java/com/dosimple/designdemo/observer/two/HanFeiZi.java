@@ -1,10 +1,6 @@
 package com.dosimple.designdemo.observer.two;
 
 import java.util.Observable;
-
-/**
- * @author baolw
- */
 class HanFeiZi extends Observable implements IHanFeiZi {
     @Override
     public void haveBreakfast() {

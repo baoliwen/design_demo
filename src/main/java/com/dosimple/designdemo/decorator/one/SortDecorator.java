@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.decorator.one;
 
-/**
- * @author baolw
- */
 class SortDecorator extends AbstractDecorator {
 
     public SortDecorator(AbstractSchoolReport schoolReport) {

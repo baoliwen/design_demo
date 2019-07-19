@@ -2,9 +2,6 @@ package com.dosimple.designdemo.composite.one;
 
 import java.util.List;
 
-/**
- * @author baolw
- */
 class Client {
     public static void main(String[] args) {
         Branch ceo = compositeCorpTree();

@@ -1,8 +1,4 @@
 package com.dosimple.designdemo.builder.two;
-
-/**
- * @author baolw
- */
 class BmwModel extends AbstractCarModel {
     @Override
     protected void start() {

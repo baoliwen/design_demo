@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.adapter.one;
 
-/**
- * @author baolw
- */
 interface IUserInfo {
     String getUserName();
 

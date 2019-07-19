@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.interpreter.one;
 
-/**
- * @author baolw
- */
 abstract class SymbolExression extends Expression {
     protected Expression left;
     protected Expression right;

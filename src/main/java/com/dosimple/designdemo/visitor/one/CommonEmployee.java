@@ -1,8 +1,4 @@
 package com.dosimple.designdemo.visitor.one;
-
-/**
- * @author baolw
- */
 class CommonEmployee extends Employee {
     private String job;
 

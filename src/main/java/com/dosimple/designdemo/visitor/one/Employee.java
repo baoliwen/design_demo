@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.visitor.one;
 
-/**
- * @author baolw
- */
 abstract class Employee {
     public static final int MALE = 0;
     public static final int FEMALE = 1;

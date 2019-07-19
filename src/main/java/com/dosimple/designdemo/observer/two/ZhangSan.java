@@ -3,9 +3,6 @@ package com.dosimple.designdemo.observer.two;
 import java.util.Observable;
 import java.util.Observer;
 
-/**
- * @author baolw
- */
 class ZhangSan implements Observer {
 
     private void reportBoss(String context) {

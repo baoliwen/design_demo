@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.composite.two;
 
-/**
- * @author baolw
- */
 abstract class Corp {
     private String name = "";
     private String position = "";

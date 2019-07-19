@@ -6,9 +6,6 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author baolw
- */
 class Client {
     public static void main(String[] args) throws IOException {
         String expStr = getExpStr();

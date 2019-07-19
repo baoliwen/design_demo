@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.mediator.two;
 
-/**
- * @author baolw
- */
 class Client {
     public static void main(String[] args) {
         AbstractMediator mediator = new Mediator();

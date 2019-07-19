@@ -1,8 +1,4 @@
 package com.dosimple.designdemo.prototype;
-
-/**
- * @author baolw
- */
 class AdvTemplate {
     private String advSubject = "XX银行国庆信用卡抽奖活动";
 

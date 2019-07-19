@@ -1,10 +1,6 @@
 package com.dosimple.designdemo.builder.two;
 
 import java.util.List;
-
-/**
- * @author baolw
- */
 public class BMWBuilder extends AbstractCarBuilder {
     private BmwModel bmwModel = new BmwModel();
     @Override

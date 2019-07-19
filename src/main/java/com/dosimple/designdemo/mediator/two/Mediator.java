@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.mediator.two;
 
-/**
- * @author baolw
- */
 class Mediator extends AbstractMediator {
     @Override
     public void execute(String str, Object... objects) {

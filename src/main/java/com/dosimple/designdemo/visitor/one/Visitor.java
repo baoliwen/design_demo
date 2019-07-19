@@ -1,8 +1,4 @@
 package com.dosimple.designdemo.visitor.one;
-
-/**
- * @author baolw
- */
 class Visitor implements IVisitor {
 
     @Override

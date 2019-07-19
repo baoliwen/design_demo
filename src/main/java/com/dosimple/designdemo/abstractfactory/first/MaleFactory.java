@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.abstractfactory.first;
 
-/**
- * @author baolw
- */
 class MaleFactory implements HumanFactory {
     @Override
     public Human createYellowHuman() {

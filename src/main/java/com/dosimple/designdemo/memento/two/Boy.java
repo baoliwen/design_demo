@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.memento.two;
 
-/**
- * @author baolw
- */
 class Boy {
     private String state = "";
 

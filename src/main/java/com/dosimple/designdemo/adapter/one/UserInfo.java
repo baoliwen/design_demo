@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.adapter.one;
 
-/**
- * @author baolw
- */
 class UserInfo implements IUserInfo {
     @Override
     public String getUserName() {

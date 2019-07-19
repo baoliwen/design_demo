@@ -1,8 +1,4 @@
 package com.dosimple.designdemo.abstractfactory.reflect;
-
-/**
- * @author baolw
- */
 class Test {
 
     public static void main(String[] args) throws Exception {

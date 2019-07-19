@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.proxy.first;
 
-/**
- * @author baolw
- */
 class GamePlayer implements IGamePlayer {
     private String name = "";
 

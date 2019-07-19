@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.faced.one;
 
-/**
- * @author baolw
- */
 class ModenPostOffice {
     private ILetterProcess letterProcess = new LetterProcess();
 

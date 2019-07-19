@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.strategy.one;
 
-/**
- * @author baolw
- */
 class Client {
     public static void main(String[] args) {
         Context context = new Context(new BackDoor());

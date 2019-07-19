@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.proxy.four;
 
-/**
- * @author baolw
- */
 class GamePlayer implements IGamePlayer {
     private String name = "";
     private IGamePlayer proxy = null;

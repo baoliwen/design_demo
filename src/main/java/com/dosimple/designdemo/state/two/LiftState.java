@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.state.two;
 
-/**
- * @author baolw
- */
 abstract class LiftState {
     protected Context context;
 

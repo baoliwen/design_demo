@@ -1,8 +1,4 @@
 package com.dosimple.designdemo.composite.one;
-
-/**
- * @author baolw
- */
 class Leaf implements ILeaf {
     private String name = "";
     private String position = "";

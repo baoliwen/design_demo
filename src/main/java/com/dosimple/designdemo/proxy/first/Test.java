@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.proxy.first;
 
-/**
- * @author baolw
- */
 public class Test {
     public static void main(String[] args) {
         IGamePlayer gamePlayer = new GamePlayer("bob");

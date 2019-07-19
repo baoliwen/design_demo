@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.command.two;
 
-/**
- * @author baolw
- */
 class ConcreteReceiver2 extends AbstractReceiver {
     @Override
     public void handle() {

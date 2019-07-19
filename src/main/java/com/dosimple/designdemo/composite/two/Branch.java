@@ -3,9 +3,6 @@ package com.dosimple.designdemo.composite.two;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author baolw
- */
 class Branch extends Corp {
 
 

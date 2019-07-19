@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.observer.one;
 
-/**
- * @author baolw
- */
 class LiSi implements ILiSi{
     @Override
     public void update(String context) {

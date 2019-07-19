@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.mediator.one;
 
-/**
- * @author baolw
- */
 class Stock {
     private static int COMPUTER_NUMBER = 100;
 

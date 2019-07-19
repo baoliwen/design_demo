@@ -1,10 +1,6 @@
 package com.dosimple.designdemo.mediator.two;
 
 import java.util.Random;
-
-/**
- * @author baolw
- */
 class Sale extends AbstractColleague{
 
     public Sale(AbstractMediator mediator) {

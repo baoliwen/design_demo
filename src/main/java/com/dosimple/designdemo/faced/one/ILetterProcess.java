@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.faced.one;
 
-/**
- * @author baolw
- */
 interface ILetterProcess {
     void writeContext(String context);
 

@@ -1,8 +1,4 @@
 package com.dosimple.designdemo.command.one;
-
-/**
- * @author baolw
- */
 class PageGroup extends Group {
     @Override
     public void find() {

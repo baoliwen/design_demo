@@ -2,9 +2,6 @@ package com.dosimple.designdemo.interpreter.one;
 
 import java.util.Map;
 
-/**
- * @author baolw
- */
 class SubExpression extends SymbolExression {
 
     public SubExpression(Expression left, Expression right) {

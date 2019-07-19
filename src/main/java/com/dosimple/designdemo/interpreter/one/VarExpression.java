@@ -1,10 +1,6 @@
 package com.dosimple.designdemo.interpreter.one;
 
 import java.util.Map;
-
-/**
- * @author baolw
- */
 class VarExpression extends Expression{
     private String key;
 

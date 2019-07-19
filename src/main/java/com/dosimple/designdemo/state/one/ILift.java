@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.state.one;
 
-/**
- * @author baolw
- */
 interface ILift {
     int OPENING_STATE = 1;
     int CLOSING_STATE = 2;

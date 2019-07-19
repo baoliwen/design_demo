@@ -3,9 +3,6 @@ package com.dosimple.designdemo.builder.first;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author baolw
- */
 abstract class AbstractCarModel {
     private List<String> sequence = new ArrayList<>();
 

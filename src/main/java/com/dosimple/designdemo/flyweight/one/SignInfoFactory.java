@@ -3,9 +3,6 @@ package com.dosimple.designdemo.flyweight.one;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author baolw
- */
 class SignInfoFactory {
     private static Map<String, SignInfo> pool = new HashMap<>();
 

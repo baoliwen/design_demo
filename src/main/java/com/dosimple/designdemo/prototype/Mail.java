@@ -1,8 +1,4 @@
 package com.dosimple.designdemo.prototype;
-
-/**
- * @author baolw
- */
 class Mail implements Cloneable {
 
     private String receiver;

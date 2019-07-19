@@ -1,8 +1,4 @@
 package com.dosimple.designdemo.state.two;
-
-/**
- * @author baolw
- */
 class ClosingState extends LiftState {
     @Override
     void close() {

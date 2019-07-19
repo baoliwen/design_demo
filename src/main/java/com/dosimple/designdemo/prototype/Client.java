@@ -2,9 +2,6 @@ package com.dosimple.designdemo.prototype;
 
 import java.util.Random;
 
-/**
- * @author baolw
- */
 class Client {
     private static final int MAX_COUNT = 6;
 

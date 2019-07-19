@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.mediator.two;
 
-/**
- * @author baolw
- */
 class Purchase extends AbstractColleague{
     public Purchase(AbstractMediator mediator) {
         super(mediator);

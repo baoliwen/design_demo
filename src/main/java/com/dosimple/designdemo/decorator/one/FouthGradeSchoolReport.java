@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.decorator.one;
 
-/**
- * @author baolw
- */
 public class FouthGradeSchoolReport extends AbstractSchoolReport {
     @Override
     void report() {

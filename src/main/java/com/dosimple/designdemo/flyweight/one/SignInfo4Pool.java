@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.flyweight.one;
 
-/**
- * @author baolw
- */
 class SignInfo4Pool extends SignInfo {
     private String key;
 

@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.mediator.one;
 
-/**
- * @author baolw
- */
 class Purchase {
     public void buyIBMcomputer(int number) {
         Stock stock = new Stock();

@@ -3,9 +3,6 @@ package com.dosimple.designdemo.interpreter.one;
 import java.util.Map;
 import java.util.Stack;
 
-/**
- * @author baolw
- */
 class Calculator {
     private Expression expression;
 

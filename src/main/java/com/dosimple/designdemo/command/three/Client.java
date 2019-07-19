@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.command.three;
 
-/**
- * @author baolw
- */
 class Client {
     public static void main(String[] args) {
         Invoker invoker = new Invoker();

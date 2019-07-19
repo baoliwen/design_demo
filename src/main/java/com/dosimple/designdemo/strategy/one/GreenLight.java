@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.strategy.one;
 
-/**
- * @author baolw
- */
 class GreenLight implements IStrategy {
 
     @Override

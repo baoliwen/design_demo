@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.mediator.one;
 
-/**
- * @author baolw
- */
 class Client {
     public static void main(String[] args) {
         System.out.println("-----------------------采购人员采购电脑-----------------------");

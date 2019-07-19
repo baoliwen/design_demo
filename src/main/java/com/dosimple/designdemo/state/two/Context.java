@@ -1,8 +1,4 @@
 package com.dosimple.designdemo.state.two;
-
-/**
- * @author baolw
- */
 class Context {
     final static OpenningState OPENNING_STATE = new OpenningState();
     final static ClosingState CLOSING_STATE = new ClosingState();

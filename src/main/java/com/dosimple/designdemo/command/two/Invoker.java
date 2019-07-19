@@ -1,8 +1,5 @@
 package com.dosimple.designdemo.command.two;
 
-/**
- * @author baolw
- */
 class Invoker {
     private Command command;
 
